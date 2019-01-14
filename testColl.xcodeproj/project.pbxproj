@@ -13,6 +13,14 @@
 		9F018DC421EB0C0300497E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F018DC221EB0C0300497E10 /* LaunchScreen.storyboard */; };
 		9F018DCC21EB0CB600497E10 /* myTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F018DCB21EB0CB600497E10 /* myTable.swift */; };
 		9F018DCE21EB0CF400497E10 /* MyCollectionviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F018DCD21EB0CF400497E10 /* MyCollectionviewCell.swift */; };
+		9F018DD021EB425600497E10 /* testCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F018DCF21EB425600497E10 /* testCell.swift */; };
+		9F018DD521EB4B5C00497E10 /* TestTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F018DD421EB4B5C00497E10 /* TestTable.swift */; };
+		9F018DD721EB4D6700497E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F018DD621EB4D6700497E10 /* ViewController.swift */; };
+		9F7580DF21EC4451005C1BE5 /* TestCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7580DE21EC4451005C1BE5 /* TestCell1.swift */; };
+		9F7580E121EC445B005C1BE5 /* TestCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7580E021EC445B005C1BE5 /* TestCell3.swift */; };
+		9F7580E321EC4460005C1BE5 /* TestCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7580E221EC4460005C1BE5 /* TestCell2.swift */; };
+		9F7580E721EC44BA005C1BE5 /* TestTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7580E621EC44BA005C1BE5 /* TestTableVC.swift */; };
+		9F7580EA21EC4542005C1BE5 /* TestCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7580E921EC4542005C1BE5 /* TestCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		9F018DC521EB0C0300497E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F018DCB21EB0CB600497E10 /* myTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTable.swift; sourceTree = "<group>"; };
 		9F018DCD21EB0CF400497E10 /* MyCollectionviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionviewCell.swift; sourceTree = "<group>"; };
+		9F018DCF21EB425600497E10 /* testCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCell.swift; sourceTree = "<group>"; };
+		9F018DD421EB4B5C00497E10 /* TestTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTable.swift; sourceTree = "<group>"; };
+		9F018DD621EB4D6700497E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F7580DE21EC4451005C1BE5 /* TestCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell1.swift; sourceTree = "<group>"; };
+		9F7580E021EC445B005C1BE5 /* TestCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell3.swift; sourceTree = "<group>"; };
+		9F7580E221EC4460005C1BE5 /* TestCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell2.swift; sourceTree = "<group>"; };
+		9F7580E621EC44BA005C1BE5 /* TestTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableVC.swift; sourceTree = "<group>"; };
+		9F7580E921EC4542005C1BE5 /* TestCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,10 @@
 		9F018DB821EB0C0000497E10 /* testColl */ = {
 			isa = PBXGroup;
 			children = (
+				9F7580E821EC44F4005C1BE5 /* CollectionCell */,
+				9F7580E521EC4499005C1BE5 /* Tableview */,
+				9F7580E421EC4475005C1BE5 /* TableCell */,
+				9F018DD121EB4ADC00497E10 /* New Group */,
 				9F018DB921EB0C0000497E10 /* AppDelegate.swift */,
 				9F018DBD21EB0C0000497E10 /* Main.storyboard */,
 				9F018DC021EB0C0300497E10 /* Assets.xcassets */,
@@ -63,8 +83,44 @@
 				9F018DC521EB0C0300497E10 /* Info.plist */,
 				9F018DCB21EB0CB600497E10 /* myTable.swift */,
 				9F018DCD21EB0CF400497E10 /* MyCollectionviewCell.swift */,
+				9F018DCF21EB425600497E10 /* testCell.swift */,
+				9F018DD421EB4B5C00497E10 /* TestTable.swift */,
+				9F018DD621EB4D6700497E10 /* ViewController.swift */,
 			);
 			path = testColl;
+			sourceTree = "<group>";
+		};
+		9F018DD121EB4ADC00497E10 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9F7580E421EC4475005C1BE5 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				9F7580E021EC445B005C1BE5 /* TestCell3.swift */,
+				9F7580E221EC4460005C1BE5 /* TestCell2.swift */,
+				9F7580DE21EC4451005C1BE5 /* TestCell1.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		9F7580E521EC4499005C1BE5 /* Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				9F7580E621EC44BA005C1BE5 /* TestTableVC.swift */,
+			);
+			path = Tableview;
+			sourceTree = "<group>";
+		};
+		9F7580E821EC44F4005C1BE5 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				9F7580E921EC4542005C1BE5 /* TestCollectionCell.swift */,
+			);
+			path = CollectionCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F018DD721EB4D6700497E10 /* ViewController.swift in Sources */,
 				9F018DCC21EB0CB600497E10 /* myTable.swift in Sources */,
+				9F018DD021EB425600497E10 /* testCell.swift in Sources */,
+				9F7580E121EC445B005C1BE5 /* TestCell3.swift in Sources */,
 				9F018DCE21EB0CF400497E10 /* MyCollectionviewCell.swift in Sources */,
+				9F7580DF21EC4451005C1BE5 /* TestCell1.swift in Sources */,
+				9F7580EA21EC4542005C1BE5 /* TestCollectionCell.swift in Sources */,
+				9F018DD521EB4B5C00497E10 /* TestTable.swift in Sources */,
+				9F7580E721EC44BA005C1BE5 /* TestTableVC.swift in Sources */,
 				9F018DBA21EB0C0000497E10 /* AppDelegate.swift in Sources */,
+				9F7580E321EC4460005C1BE5 /* TestCell2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

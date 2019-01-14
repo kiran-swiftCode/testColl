@@ -37,7 +37,7 @@ extension myTable: UICollectionViewDelegate, UICollectionViewDataSource, UIColle
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = mycollection.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as? MyCollectionviewCell
+        let cell = mycollection.dequeueReusableCell(withReuseIdentifier: "MyCollectionviewCell", for: indexPath) as? MyCollectionviewCell
         cell?.mycollectionviewce.text = "demo"
         return cell!
     }
